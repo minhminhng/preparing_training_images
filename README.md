@@ -1,4 +1,4 @@
-# image_preparation
+# preparing_training_images
 This stage creates images overlayed with checkerboards to 
 support the checkerboard detection stage of the vehicle platooning project.
 In order to process, you need to download background images from the internet.
