@@ -22,10 +22,11 @@ Your computer should have preinstalled OpenCv.
 Let move the background images and checkerboard images into a folder. The folder 
 should look like
 
+```
 <root_folder>
-| --background
-| --checkerboards
-
+    |-- background
+    |-- checkerboards
+```
 	
 After downloading the images, you can run the checkerboard_main.py script to 
 process the image. The process will check and resize the images to suitable size, 
@@ -35,15 +36,21 @@ overlay the checkerboard on top of the background. The name of the folder should
 python3 /path/to/script/checkerboard_main.py /path/to/images/folers/images
 ```
 
-<root_folder>
-	|---background
-	|---checkerboards
-
-
-
 ## Result
-After running the process, you will obtain two folder checkerboad
+After running the process, the project folder will look like
 
+```
+<root_folder>
+	|-- background
+	|-- checkerboards
+	|-- images
+	    |-- checkerboard
+	    |-- no_checkerboard
+	|-- annotation
+```
+
+The images in the folder 'checkerboard' and the annotations in the folder 'annotation' 
+can be used for training checkerboard detection.
 
 
 
