@@ -57,7 +57,7 @@ def blending_checkerboard(org_dir):
 	background_dir = os.path.join(project_dir, "background")
 	checkerboard_dir = os.path.join(project_dir, "translatedCheckerboards/")
 	alpha_dir = os.path.join(project_dir, "translatedAlphas/")
-	image_dir = os.path.join(project_dir,"image/")
+	image_dir = os.path.join(project_dir,"images/")
 	try:
 		os.stat(image_dir)
 	except:
@@ -82,7 +82,7 @@ def blending_checkerboard(org_dir):
 	path, dirs, fores = os.walk(checkerboard_dir).next()
 	num_foreground = len(fores)
 		
-	annotation_dir = project_dir + "/annotation/"
+	annotation_dir = project_dir + "/annotationss/"
 	try:
 		os.stat(annotation_dir)
 	except:
